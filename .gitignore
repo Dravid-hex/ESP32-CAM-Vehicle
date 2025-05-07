@@ -1,0 +1,117 @@
+# ===== Arduino =====
+*.elf
+*.hex
+*.eep
+*.bin
+*.d
+*.o
+*.a
+*.map
+*.lst
+*.srec
+*.sym
+*.dep
+*.dmp
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.vscode/
+build/
+*.ino.*
+*.sketch.cpp
+
+# PlatformIO
+.pio/
+.vscode/
+*.pyc
+__pycache__/
+*.env
+.env
+.env.*
+
+# Arduino CLI cache
+arduino-cli.yaml
+.arduino15/
+.arduino/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test output
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Pylint
+.pylint.d/
+
+# Others
+.DS_Store
+*.log
+*.sqlite3
+*.db
+
+# ===== KiCad =====
+*.bak
+*.kicad_prl
+*.tmp
+*.cache
+*.backup
+_autosave-*
+fp-info-cache
+sym-lib-table-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# Build outputs
+*.pdf
+*.ps
+*.svg
+*.png
+*.jpg
+*.dxf
+*.step
+*.stp
+*.gbr
+*.gtp
+*.gtl
+*.gbl
+*.gts
+*.gbs
+*.gml
+*.gko
+*.drill
+*.drl
+*.zip
+fabrication/
+
+# 3D model cache (optional)
+3dmodels/
+
+# User-specific files
+*.swp
+*.swo
+*.~*
+
+# ===== General =====
+# Ignore temp/editor files
+*~
+Thumbs.db
+ehthumbs.db
