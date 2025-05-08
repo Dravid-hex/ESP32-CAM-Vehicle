@@ -57,26 +57,26 @@ void loop() {
           // Adelante
           digitalWrite(IN1, LOW);
           digitalWrite(IN2, HIGH);
-          analogWrite(ENA, 100);  // Velocidad máxima
-         // digitalWrite(IN3, LOW);
-       //   digitalWrite(IN4, HIGH);
-       //  analogWrite(ENB, 100);
+          analogWrite(ENA, 100);  
+          digitalWrite(IN3, LOW);
+          digitalWrite(IN4, HIGH);
+          analogWrite(ENB, 100);
         } else if (comando == '2') {
           // Atrás
           digitalWrite(IN1, HIGH);
           digitalWrite(IN2, LOW);
-          analogWrite(ENA, 100);  // Velocidad máxima
-      //    digitalWrite(IN3, HIGH);
-      //    digitalWrite(IN4, LOW);
-      //    analogWrite(ENB, 100);
+          analogWrite(ENA, 100);  
+          digitalWrite(IN3, HIGH);
+          digitalWrite(IN4, LOW);
+          analogWrite(ENB, 100);
         } else {
           // Detener motor si se recibe otro valor
           digitalWrite(IN1, LOW);
           digitalWrite(IN2, LOW);
           analogWrite(ENA, 0);
-      //    digitalWrite(IN3, LOW);
-    //       digitalWrite(IN4, LOW);
-     //      analogWrite(ENB, 0);
+          digitalWrite(IN3, LOW);
+          digitalWrite(IN4, LOW);
+          analogWrite(ENB, 0);
 
         }
       }
