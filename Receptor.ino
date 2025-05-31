@@ -49,7 +49,7 @@ void loop() {
     while (client.connected()) {
       if (client.available()) {
         char comando = client.read();
-          request.trim();
+         // request.trim();
         Serial.print("Comando recibido: ");
         Serial.println(comando);
 
